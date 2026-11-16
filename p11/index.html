@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Newspaper</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: lightgray;
+        }
+
+        
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+       
+        nav {
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+       
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+       
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+   
+    <header>
+        <h1>DAILY NEWS</h1>
+        <p>Your Daily Newspaper</p>
+    </header>
+
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Sports</a>
+        <a href="#">Technology</a>
+        <a href="#">World</a>
+    </nav>
+
+    
+    <main class="container">
+
+        
+        <section class="box">
+            <h2>Latest News</h2>
+            <h3>Education News</h3>
+            <p>New learning methods are helping students improve their skills.</p>
+
+            <h3>Sports News</h3>
+            <p>Teams are preparing for upcoming tournaments.</p>
+        </section>
+
+       
+        <article class="box">
+            <h2>Main Headlines</h2>
+            <h3>Technology is Changing the World</h3>
+
+            <img src="image.jpeg"
+                 alt="Technology news"
+                 style="width:100%;">
+
+            <p>
+                Technology plays an important role in our daily life.
+                New inventions are making communication and learning easier.
+            </p>
+
+            <h3>Future of Education</h3>
+            <p>Online learning is becoming more popular every day.</p>
+        </article>
+
+        
+        <aside class="box">
+            <h2>Top Stories</h2>
+            <p>1. New technology trends</p>
+            <p>2. Cricket updates</p>
+            <p>3. Education development</p>
+            <p>4. World news</p>
+        </aside>
+
+    </main>
+
+    
+    <footer>
+        <p>© 2026 Daily News</p>
+    </footer>
+
+</body>
+</html>

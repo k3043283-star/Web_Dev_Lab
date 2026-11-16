@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sticky Navbar and Card Overlay</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        
+        nav {
+            background-color: black;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        
+        .card {
+            position: relative;
+            width: 300px;
+            margin: 50px auto;
+        }
+
+        .card img {
+            width: 100%;
+            display: block;
+        }
+
+       
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+     
+    <div class="card">
+        <img src="images.jpeg" alt="beautiful image">
+
+        <div class="overlay">
+            <h3>My Portfolio</h3>
+            <p>Web Developer</p>
+        </div>
+    </div>
+
+   
+    <div class="content">
+        <h2>Welcome</h2>
+        <p>This is my simple portfolio website.</p>
+        <p>Scroll down to see the sticky navbar working.</p>
+        <p>Learning HTML and CSS is fun!</p>
+        <p>Practice CSS positioning.</p>
+        <p>Thank you for visiting!</p>
+    </div>
+
+</body>
+</html>

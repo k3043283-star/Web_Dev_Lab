@@ -1,0 +1,34 @@
+# Web Development Lab
+## About This project contains my HTML and CSS practical programs.
+## Modules
+### Module 1: Git and Terminal 
+- p1: Project folder and terminal navigation
+- p2: portfolio respository with an initial commit
+- p3: Feature-branch Git workflow
+- p4: GitHub README and version tags
+### Module 2: HTML and CSS Foundations
+- p5: Semantic bio page
+- p6: Full portfolio page structure
+- p7: Design tokens and typography
+- p8: Sticky navbar and card overlay
+- -p9: Responsive navbar and card grid
+### Module 3: CSS Layout Systems
+- p10: Portfolio header and footer with Flexbox
+- p11: Newspaper layout using CSSGrid 
+- p12: Portfolio projects grid
+- p13: Choosing between Flexbox and Grid
+- ## Technologies
+- HTML
+- CSS
+- Git
+- GitHub
+## p3: Feature Branch Workflow
+Created a feature branch to practice git branching and merging.
+## Version
+Version: 1.0
+## Project Status
+Completed:
+- p1: project folder and terminal navigation
+- p2: Portfolio repository with initial commit 
+- p3: Feature-branch Git workflow
+- p4: GitHub README and version tag
